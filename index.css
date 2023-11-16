@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(139, 45, 45);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.todo-list{
+    width: 100%;
+    max-width: 540px;
+    background-image: url('185909667-flat-lay-composition-with-unfilled-to-do-list-cup-of-coffee-and-computer-keyboard-on-wooden-table.jpg');
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-list h2{
+    color: white;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.addPage{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left:67px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+input{
+    
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding:10px 22px;
+    background-color: rgb(91, 2, 2);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.todopage{
+  display: flex;
+  flex-direction: column;
+  background: #edeef0;
+  border-radius: 10px;
+  padding: 12px;
+gap: 10px;
+margin-bottom: 10px;
+}
+progress {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+}
+   
+.btn-todo {
+    padding:3px 10px;
+   display: flex;
+   justify-content: space-between;
+}
+.btn-todo button{
+    padding: 8px;
+}
+.todosi{
+    display: flex;
+    gap: 10px;
+}
+.todosi p{
+    width: 100%;
+    min-width: 80%;
+    padding: 4px;
+    margin:0px 5px;
+
+}
+.todo input[type="checkbox"] {
+  width: 18px;
+  height: 20px;
+}
+.todo input[type="checkbox"]:checked {
+  accent-color: green;
+}
+
+.closed {
+  text-decoration: 2px solid green;
+  text-decoration-line: line-through;
+}
+.btns{
+   border-radius: 2px;
+   background: none;
+   color: black;
+   padding: 0px 0px;
+
+}
+.buttonadd{
+    paddin
+}
